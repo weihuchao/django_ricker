@@ -20,6 +20,7 @@ setuptools.setup(
     author_email="weihuchao@gmail.com",
     description="django 1.9.9 utils",
     long_description=read('README.md'),
+    long_description_content_type="text/markdown",
     url="https://github.com/weihuchao/django_utils",
     packages=setuptools.find_packages(),
     classifiers=[
