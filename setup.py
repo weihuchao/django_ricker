@@ -13,7 +13,7 @@ def read(fname):
 
 
 setuptools.setup(
-    name="django_utils",
+    name="django_ricker",
     version="0.0.1",
     python_requires="==2.7",
     author="weihuchao",
@@ -23,7 +23,6 @@ setuptools.setup(
     url="https://github.com/weihuchao/django_utils",
     packages=setuptools.find_packages(),
     classifiers=[
-        'Development Status :: 0.0.1 ',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
