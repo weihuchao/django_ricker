@@ -11,7 +11,7 @@ setuptools.setup(
     author="weihuchao",
     author_email="weihuchao@gmail.com",
     description="django 1.9.9 utils",
-    url="",
+    url="https://github.com/weihuchao/django_utils",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 2.7",
