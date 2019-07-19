@@ -15,7 +15,7 @@ def read(fname):
 setuptools.setup(
     name="django_utils",
     version="0.0.1",
-    python_requires="python 2.7",
+    python_requires="==2.7",
     author="weihuchao",
     author_email="weihuchao@gmail.com",
     description="django 1.9.9 utils",
