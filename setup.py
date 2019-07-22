@@ -15,10 +15,9 @@ def read(fname):
 setuptools.setup(
     name="django_ricker",
     version="0.0.1",
-    python_requires="==2.7",
     author="weihuchao",
     author_email="weihuchao@gmail.com",
-    description="django 1.9.9 utils",
+    description="django some utils, make it convenient to work. ",
     long_description=read('README.md'),
     long_description_content_type="text/markdown",
     url="https://github.com/weihuchao/django_utils",
@@ -27,6 +26,5 @@ setuptools.setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 2.7',
     ],
 )

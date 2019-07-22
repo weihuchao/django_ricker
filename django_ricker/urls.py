@@ -10,8 +10,8 @@ import os
 def _analysis_patterns(urls, preifx, urlpatterns):
     for urlpattern in urlpatterns:
         full_path = preifx + urlpattern.regex.pattern
-        if getattr(urlpattern, "urlconf_name", None):
-            _analysis_patterns(urls, full_path, urlpattern.urlconf_name.urlpatterns)
+        if getattr(urlpattern, "url_patterns", None):
+            _analysis_patterns(urls, full_path, urlpattern.url_patterns)
         else:
             urls.append(full_path)
 
@@ -28,5 +28,5 @@ def get_all_urls(project_name=None):
 
     project_urls = importlib.import_module(project_name + ".urls")
 
-    _analysis_patterns(urls, "/", project_urls.urlpatterns)
+    _analysis_patterns(urls, "", project_urls.urlpatterns)
     return urls
