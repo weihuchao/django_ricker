@@ -1,5 +1,6 @@
 
-This is some django 1.9.9 utils, make it convenient to work.  
+This is some django utils, make it convenient to work.
+Now only support django 1.9,  1.9+ may aslo work.
 
 
 ## 1 install
