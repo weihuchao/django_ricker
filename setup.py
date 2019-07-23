@@ -14,7 +14,7 @@ def read(fname):
 
 setuptools.setup(
     name="django_ricker",
-    version="0.0.2",
+    version="0.0.3",
     author="weihuchao",
     author_email="weihuchao@gmail.com",
     description="django some utils, make it convenient for work. ",
