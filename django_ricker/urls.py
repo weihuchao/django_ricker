@@ -26,7 +26,7 @@ def get_all_urls(project_name=None):
     if not project_name:
         project_name = os.path.basename(os.getcwd())
 
-    project_urls = importlib.import_module(project_name + ".urls")
+    project_urls_ = importlib.import_module(project_name + ".urls")
 
-    _analysis_patterns(urls, "", project_urls.urlpatterns)
+    _analysis_patterns(urls, "", project_urls_.urlpatterns)
     return urls
