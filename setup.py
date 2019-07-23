@@ -14,10 +14,10 @@ def read(fname):
 
 setuptools.setup(
     name="django_ricker",
-    version="0.0.1",
+    version="0.0.2",
     author="weihuchao",
     author_email="weihuchao@gmail.com",
-    description="django some utils, make it convenient to work. ",
+    description="django some utils, make it convenient for work. ",
     long_description=read('README.md'),
     long_description_content_type="text/markdown",
     url="https://github.com/weihuchao/django_utils",

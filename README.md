@@ -1,5 +1,5 @@
 
-This is some django utils, make it convenient to work.
+There are some django utils, make it convenient for work.
 Now only support django 1.9,  1.9+ may aslo work.
 
 
